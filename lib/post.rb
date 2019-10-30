@@ -14,7 +14,7 @@ class Post
     end
 
     def author_name
-        if author.class == Author
+        if @author.class == Author
         @author.name
         end
     end
